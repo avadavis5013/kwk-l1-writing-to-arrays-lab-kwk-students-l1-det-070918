@@ -1,6 +1,6 @@
 puts "Whats your favorite artist? If you mess up, you'll have to start again!"
 Tori Kelly = gets.chomp
-puts "My favorite artist is #{Tori Kelly}"
+puts "My favorite artist is #{artist}"
 if artist == "Alessia Cara"
   puts "I like Alessia Cara!"
   puts "What song?"
@@ -13,5 +13,5 @@ elsif artist == "Ariana Grande"
     puts "No more! Sorry you have to choose 1 album."
   end
 else artist == "unknown"
-  puts "Sorry, dont know this #{unknown} artist!"
+  puts "Sorry, dont know this #{artist} artist!"
 end
