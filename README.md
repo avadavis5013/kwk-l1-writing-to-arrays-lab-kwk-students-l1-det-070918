@@ -1,6 +1,4 @@
-# Fixing the Rainbow
 
-## Overview
 
 Now that we've practiced reading arrays, we will look at how to edit them and
 add to them.
@@ -11,12 +9,6 @@ It's broken! Run `learn` or `rspec` in your terminal. I'm not sure what
 happened, but the colors of the rainbow are wrong! Right now, our rainbow is an
 array with the following colors:
 
-```ruby
-rainbow_colors = [
-  "yellow",
-  "default",
-  "light_cyan"
-]
 ```
 
 When we run our tests, these colors are printed out in order using a Ruby gem,
@@ -25,6 +17,14 @@ _colorize_. Our goal is to change this array so that it becomes "red",
 us the closest to a completed rainbow we can get in our terminal.
 
 ### Replacing Values in an Array
+```ruby
+rainbow_colors = [
+  "yellow",
+  "default",
+  "light_cyan"
+]# Fixing the Rainbow
+
+## Overview
 
 In an array of values like `rainbow_colors`, each value can be thought of as its
 own _variable_.  We can do something like this in Ruby:
